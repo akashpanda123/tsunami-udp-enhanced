@@ -1,0 +1,245 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/ubuntu\/Desktop\/tsunami-udp\/missing aclocal-1.14$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -I$(top_srcdir)\/include$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/ubuntu\/Desktop\/tsunami-udp\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/ubuntu\/Desktop\/tsunami-udp\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/ubuntu\/Desktop\/tsunami-udp\/missing automake-1.14$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -g -Wall -O3 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = *~$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_BLOCKDUMP	config.c	/^const u_char     DEFAULT_BLOCKDUMP     = 0;            \/* on default do not write bitmap dump to file  *\/$/;"	v
+DEFAULT_BLOCK_SIZE	config.c	/^const u_int32_t  DEFAULT_BLOCK_SIZE    = 1024;         \/* default size of a single file block          *\/$/;"	v
+DEFAULT_CLIENT_PORT	config.c	/^const u_int16_t  DEFAULT_CLIENT_PORT   = TS_UDP_PORT;  \/* default UDP port of the client               *\/$/;"	v
+DEFAULT_ERROR_RATE	config.c	/^const u_int32_t  DEFAULT_ERROR_RATE    = 7500;         \/* the default threshhold error rate (% x 1000) *\/$/;"	v
+DEFAULT_FASTER_DEN	config.c	/^const u_int16_t  DEFAULT_FASTER_DEN    = 6;            \/* default denominator in the speedup factor    *\/$/;"	v
+DEFAULT_FASTER_NUM	config.c	/^const u_int16_t  DEFAULT_FASTER_NUM    = 5;            \/* default numerator in the speedup factor      *\/$/;"	v
+DEFAULT_HISTORY	config.c	/^const u_int16_t  DEFAULT_HISTORY       = 25;           \/* default percentage of history in rates       *\/$/;"	v
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_IPV6_YN	config.c	/^const u_char     DEFAULT_IPV6_YN       = 0;            \/* the default IPv6 setting                     *\/$/;"	v
+DEFAULT_LOSSLESS	config.c	/^const u_char     DEFAULT_LOSSLESS      = 1;            \/* default to lossless transfer                 *\/$/;"	v
+DEFAULT_LOSSWINDOW_MS	config.c	/^const u_int32_t  DEFAULT_LOSSWINDOW_MS = 1000;         \/* default time window (msec) for semi-lossless *\/$/;"	v
+DEFAULT_NO_RETRANSMIT	config.c	/^const u_char     DEFAULT_NO_RETRANSMIT = 0;            \/* on default use retransmission                *\/$/;"	v
+DEFAULT_OUTPUT_MODE	config.c	/^const u_char     DEFAULT_OUTPUT_MODE   = LINE_MODE;    \/* the default output mode (SCREEN or LINE)     *\/$/;"	v
+DEFAULT_RATE_ADJUST	config.c	/^const u_char     DEFAULT_RATE_ADJUST   = 0;            \/* the default for remembering achieved rate    *\/$/;"	v
+DEFAULT_SERVER_NAME	config.c	/^const char      *DEFAULT_SERVER_NAME   = "localhost";  \/* default name of the remote server            *\/$/;"	v
+DEFAULT_SERVER_PORT	config.c	/^const u_int16_t  DEFAULT_SERVER_PORT   = TS_TCP_PORT;  \/* default TCP port of the remote server        *\/$/;"	v
+DEFAULT_SLOWER_DEN	config.c	/^const u_int16_t  DEFAULT_SLOWER_DEN    = 24;           \/* default denominator in the slowdown factor   *\/$/;"	v
+DEFAULT_SLOWER_NUM	config.c	/^const u_int16_t  DEFAULT_SLOWER_NUM    = 25;           \/* default numerator in the slowdown factor     *\/$/;"	v
+DEFAULT_TABLE_SIZE	config.c	/^const int        DEFAULT_TABLE_SIZE    = 4096;         \/* initial size of the retransmission table     *\/$/;"	v
+DEFAULT_TARGET_RATE	config.c	/^const u_int32_t  DEFAULT_TARGET_RATE   = 650000000;    \/* the default target rate (in bps)             *\/$/;"	v
+DEFAULT_TRANSCRIPT_YN	config.c	/^const u_char     DEFAULT_TRANSCRIPT_YN = 0;            \/* the default transcript setting               *\/$/;"	v
+DEFAULT_UDP_BUFFER	config.c	/^const u_int32_t  DEFAULT_UDP_BUFFER    = 20000000;     \/* default size of the UDP receive buffer       *\/$/;"	v
+DEFAULT_VERBOSE_YN	config.c	/^const u_char     DEFAULT_VERBOSE_YN    = 1;            \/* the default verbosity setting                *\/$/;"	v
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(tsunami_SOURCES)$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EMPTY	ring.c	/^const int EMPTY = -1;$/;"	v
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/ubuntu\/Desktop\/tsunami-udp\/missing makeinfo$/;"	m
+MAX_COMMAND_LENGTH	config.c	/^const int        MAX_COMMAND_LENGTH    = 1024;         \/* maximum length of a single command           *\/$/;"	v
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = tsunami$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = tsunami$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = tsunami 1.1b43$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = tsunami$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 1.1b43$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(tsunami_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = $/;"	m
+VERSION	Makefile	/^VERSION = 1.1b43$/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/home\/ubuntu\/Desktop\/tsunami-udp\/client$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/ubuntu\/Desktop\/tsunami-udp\/client$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/ubuntu\/Desktop\/tsunami-udp$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/ubuntu\/Desktop\/tsunami-udp$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+accept_block	io.c	/^int accept_block(ttp_session_t *session, u_int32_t block_index, u_char *block)$/;"	f
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	Makefile	/^am__v_CC_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am_tsunami_OBJECTS	Makefile	/^am_tsunami_OBJECTS = command.$(OBJEXT) config.$(OBJEXT) io.$(OBJEXT) \\$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = tsunami$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+command_close	command.c	/^int command_close(command_t *command, ttp_session_t *session)$/;"	f
+command_connect	command.c	/^ttp_session_t *command_connect(command_t *command, ttp_parameter_t *parameter)$/;"	f
+command_dir	command.c	/^int command_dir(command_t *command, ttp_session_t *session)$/;"	f
+command_get	command.c	/^int command_get(command_t *command, ttp_session_t *session)$/;"	f
+command_help	command.c	/^int command_help(command_t *command, ttp_session_t *session)$/;"	f
+command_quit	command.c	/^int command_quit(command_t *command, ttp_session_t *session)$/;"	f
+command_set	command.c	/^int command_set(command_t *command, ttp_parameter_t *parameter)$/;"	f
+common_lib	Makefile	/^common_lib = $(top_builddir)\/common\/libtsunami_common.a$/;"	m
+create_tcp_socket	network.c	/^int create_tcp_socket(ttp_session_t *session, const char *server_name, u_int16_t server_port)$/;"	f
+create_tcp_socket_v4	network_v4.c	/^int create_tcp_socket_v4(ttp_session_t *session, const char *server_name, u_int16_t server_port)$/;"	f
+create_tcp_socket_v6	network_v6.c	/^int create_tcp_socket_v6(ttp_session_t *session, const char *server_name, u_int16_t server_port)$/;"	f
+create_udp_socket	network.c	/^int create_udp_socket(ttp_parameter_t *parameter)$/;"	f
+create_udp_socket_v4	network_v4.c	/^int create_udp_socket_v4(ttp_parameter_t *parameter)$/;"	f
+create_udp_socket_v6	network_v6.c	/^int create_udp_socket_v6(ttp_parameter_t *parameter)$/;"	f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+disk_thread	command.c	/^void *disk_thread(void *arg)$/;"	f
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dump_blockmap	command.c	/^void dump_blockmap(const char *postfix, const ttp_transfer_t *xfer)$/;"	f
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+got_block	command.c	/^inline int got_block(ttp_session_t* session, u_int32_t blocknr)$/;"	f
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/ubuntu\/Desktop\/tsunami-udp\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	main.c	/^int main(int argc, const char *argv[])$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+parse_command	main.c	/^void parse_command(command_t *command, char *buffer)$/;"	f
+parse_fraction	command.c	/^int parse_fraction(const char *fraction, u_int16_t *num, u_int16_t *den)$/;"	f
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/tsunami$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/tsunami$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/tsunami$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/tsunami$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+reset_client	config.c	/^void reset_client(ttp_parameter_t *parameter)$/;"	f
+ring_cancel	ring.c	/^int ring_cancel(ring_buffer_t *ring)$/;"	f
+ring_confirm	ring.c	/^int ring_confirm(ring_buffer_t *ring)$/;"	f
+ring_create	ring.c	/^ring_buffer_t *ring_create(ttp_session_t *session)$/;"	f
+ring_destroy	ring.c	/^int ring_destroy(ring_buffer_t *ring)$/;"	f
+ring_dump	ring.c	/^int ring_dump(ring_buffer_t *ring, FILE *out)$/;"	f
+ring_full	ring.c	/^int ring_full(ring_buffer_t *ring)$/;"	f
+ring_peek	ring.c	/^u_char *ring_peek(ring_buffer_t *ring)$/;"	f
+ring_pop	ring.c	/^int ring_pop(ring_buffer_t *ring)$/;"	f
+ring_reserve	ring.c	/^u_char *ring_reserve(ring_buffer_t *ring)$/;"	f
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = client$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+tsunami_DEPENDENCIES	Makefile	/^tsunami_DEPENDENCIES = $(common_lib)$/;"	m
+tsunami_LDADD	Makefile	/^tsunami_LDADD = $(common_lib) -lpthread$/;"	m
+tsunami_OBJECTS	Makefile	/^tsunami_OBJECTS = $(am_tsunami_OBJECTS)$/;"	m
+tsunami_SOURCES	Makefile	/^tsunami_SOURCES = \\$/;"	m
+ttp_authenticate	protocol.c	/^int ttp_authenticate(ttp_session_t *session, u_char *secret)$/;"	f
+ttp_negotiate	protocol.c	/^int ttp_negotiate(ttp_session_t *session)$/;"	f
+ttp_open_port	protocol.c	/^int ttp_open_port(ttp_session_t *session)$/;"	f
+ttp_open_transfer	protocol.c	/^int ttp_open_transfer(ttp_session_t *session, const char *remote_filename, const char *local_filename)$/;"	f
+ttp_repeat_retransmit	protocol.c	/^int ttp_repeat_retransmit(ttp_session_t *session)$/;"	f
+ttp_request_retransmit	protocol.c	/^int ttp_request_retransmit(ttp_session_t *session, u_int32_t block)$/;"	f
+ttp_request_stop	protocol.c	/^int ttp_request_stop(ttp_session_t *session)$/;"	f
+ttp_update_stats	protocol.c	/^int ttp_update_stats(ttp_session_t *session)$/;"	f
+version	Makefile	/^version = 1.1b43$/;"	m
+xscript_close	transcript.c	/^void xscript_close(ttp_session_t *session, u_int64_t delta)$/;"	f
+xscript_data_log	transcript.c	/^void xscript_data_log(ttp_session_t *session, const char *logline)$/;"	f
+xscript_data_start	transcript.c	/^void xscript_data_start(ttp_session_t *session, const struct timeval *epoch)$/;"	f
+xscript_data_stop	transcript.c	/^void xscript_data_stop(ttp_session_t *session, const struct timeval *epoch)$/;"	f
+xscript_open	transcript.c	/^void xscript_open(ttp_session_t *session)$/;"	f

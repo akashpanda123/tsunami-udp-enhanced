@@ -1,0 +1,53 @@
+cscope 15 $HOME/Desktop/tsunami-udp (3rd copy)               0000000333
+	@config.h
+
+5 
+	#PACKAGE
+ "tsu«mi"
+
+	)
+
+8 
+	#PACKAGE_BUGREPORT
+ ""
+
+	)
+
+11 
+	#PACKAGE_NAME
+ "tsu«mi"
+
+	)
+
+14 
+	#PACKAGE_STRING
+ "tsu«mò1.1b43"
+
+	)
+
+17 
+	#PACKAGE_TARNAME
+ "tsu«mi"
+
+	)
+
+20 
+	#PACKAGE_VERSION
+ "1.1b43"
+
+	)
+
+23 
+	#VERSION
+ "1.1b43"
+
+	)
+
+	@
+1
+.
+1
+/usr/include
+1
+9
+config.h
